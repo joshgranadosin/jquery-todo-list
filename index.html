@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="div_top">
+		My to do list.
+		<form id="form_new_entry">
+			<input id="text_box" type="text"><br/>
+			<input type="submit" value="Add to List" class="input_button">
+		</form>
+	</div>
+	<div id="div_to_do">
+		<ul id="div_row" class="div_class_row">
+		</ul>
+	</div>
+	<div id="div_bottom">
+		<form id="form_delete">
+			<input type="submit" value="Remove selected from List" class="input_button">
+		</form>
+		<form id="form_reset">
+			<input type="submit" value="Clear Entire List" class="input_button">
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
