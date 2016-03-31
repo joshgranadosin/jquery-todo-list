@@ -1,5 +1,5 @@
 body {
-	background-color: yellow;
+	background-color: gray;
 	color: black;
 	font-size: 30px;
 	margin: 0 auto;
@@ -32,7 +32,10 @@ ul {
 }
 
 #div_to_do {
-	width: 70%;
+	margin: 0 auto;
+	width: 400px;
+	background-color: yellow;
+	text-align: left;
 }
 
 #div_bottom {
@@ -47,6 +50,15 @@ ul {
 	height: 500px;
 }
 
-.class_check {
-	margin: 20px;
+.class_button {
+	height: 20px;
+	width: 20px;
+	background-color: red;
+	display: inline-block;
+    margin-right: 10px
 }
+
+.class_strike {
+	text-decoration: line-through;
+}
+
